@@ -17,6 +17,11 @@ h1 {
 
 section {
     display: flex;
+
+}
+
+.madaras-dream {
+    margin-top: 50px;
 }
 
 .half-width {
@@ -44,4 +49,10 @@ section {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.madaras-dream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
