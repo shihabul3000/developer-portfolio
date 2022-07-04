@@ -11,6 +11,10 @@ h1 {
 
 }
 
+h2 {
+    font-size: 5px;
+}
+
 .OrangeColor {
     color: orange;
 }
@@ -25,12 +29,14 @@ section {
 }
 
 .half-width {
-    width: 50%;
+    width: 80%;
+    padding-left: 10%;
+
 }
 
 .half-width img {
-    width: 80%;
-    padding-left: 10%;
+    width: 50%;
+
 
 }
 
@@ -55,4 +61,34 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.flexible-container {
+
+    display: flex;
+    margin-bottom: 150px;
+}
+
+.history {
+
+
+    margin-right: 5%;
+    margin-left: 5%;
+
+    border-radius: 10px;
+
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid blue;
+
+}
+
+.history {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+
+#id02 {
+    border-left: pink;
 }
